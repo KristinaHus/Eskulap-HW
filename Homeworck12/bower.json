@@ -1,0 +1,22 @@
+{
+  "name": "Homeworck12",
+  "homepage": "https://github.com/kina4smile/Eskulap-HW",
+  "authors": [
+    "Kina4smile <kina.girl@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "flexboxgrid": "~6.3.0"
+  }
+}
