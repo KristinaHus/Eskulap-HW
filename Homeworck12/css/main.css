@@ -7,6 +7,10 @@
 }
 p {
   font-size: 16px;
+  line-height: 35px;
+}
+ul {
+  list-style: none;
 }
 .container {
   width: 1135px;
@@ -20,9 +24,16 @@ p {
   padding: 20px 70px;
   background: #fff;
   color: #3695ff;
+  -moz-border-radius: 34px;
+  -webkit-border-radius: 34px;
   border-radius: 34px;
   font-size: 16px;
   font-weight: 700;
+}
+.section-title {
+  color: #3695ff;
+  font-size: 50px;
+  font-weight: 300;
 }
 .welcome {
   background: url("../img/background.jpg");
@@ -100,4 +111,153 @@ p {
   width: 19px;
   margin: auto;
   display: block;
+}
+.about-me-content {
+  padding: 5% 0 9% 0;
+}
+.about-me-content p {
+  padding: 5% 0 0 0;
+}
+.expert-in {
+  background: #f1f8ff;
+}
+.expert-in .container {
+  padding: 7% 0;
+}
+.expert-list {
+  margin: 5% 0 0 0;
+}
+.expert-list li {
+  padding: 4% 0;
+  margin: 0 1%;
+  flex-basis: 31%;
+  justify-content: center;
+}
+.expert-list span {
+  width: 40%;
+  margin: 0 0 17% 0;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #b7c0c9;
+}
+.expert-list h3 {
+  margin: 0 0 7% 0;
+  color: #3695ff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.expert-list .mobile-app:before,
+.expert-list .web-design:before,
+.expert-list .web-dev:before,
+.expert-list .product-design:before,
+.expert-list .ux-ui:before,
+.expert-list .animations:before {
+  content: " ";
+  display: flex;
+}
+.expert-list .mobile-app:before {
+  background: url("../img/mobile-apps.svg") no-repeat;
+  width: 45px;
+  height: 66px;
+  margin: 25% auto;
+}
+.expert-list .web-design:before {
+  background: url("../img/web-design.svg") no-repeat;
+  width: 72px;
+  height: 58px;
+  margin: 28% auto;
+}
+.expert-list .web-dev:before {
+  background: url("../img/web-dev.svg") no-repeat;
+  width: 58px;
+  height: 66px;
+  margin: 25% auto;
+}
+.expert-list .product-design:before {
+  background: url("../img/product-design.svg") no-repeat;
+  width: 71px;
+  height: 67px;
+  margin: 25% auto;
+}
+.expert-list .ux-ui:before {
+  background: url("../img/ux-ui.svg") no-repeat;
+  width: 63px;
+  height: 63px;
+  margin: 26% auto;
+}
+.expert-list .ux-ui:before {
+  background: url("../img/ux-ui.svg") no-repeat;
+  width: 63px;
+  height: 63px;
+  margin: 25% auto;
+}
+.expert-list .animations:before {
+  background: url("../img/animations.svg") no-repeat;
+  width: 78px;
+  height: 65px;
+  margin: 26% auto;
+}
+.latest-works {
+  text-align: center;
+}
+.latest-works .container {
+  padding: 7% 0;
+}
+.latest-works .container .works-list {
+  margin: 9% 0 0 0;
+}
+.latest-works .container .works-list li {
+  padding: 1% 10px;
+}
+.latest-works .container .thumbnail {
+  background: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  height: 20em;
+  overflow: hidden;
+}
+.latest-works .container .thumbnail img {
+  padding: 40px 0 0 0;
+}
+.clients {
+  background: #f1f8ff;
+}
+.clients .container {
+  padding: 6% 0;
+}
+.clients .clients-list {
+  align-items: center;
+  margin: 6% 0 0 0;
+}
+.clients .microsoft:before {
+  content: " ";
+  background: url("../img/microsoft.svg") no-repeat;
+  display: flex;
+  width: 192px;
+  height: 41px;
+}
+.clients .samsung:before {
+  content: " ";
+  background: url("../img/samsung.svg") no-repeat;
+  display: flex;
+  width: 185px;
+  height: 28px;
+}
+.clients .ibm:before {
+  content: " ";
+  background: url("../img/ibm_logo.svg") no-repeat;
+  display: flex;
+  width: 140px;
+  height: 52px;
+}
+.clients .google:before {
+  content: " ";
+  background: url("../img/google.svg") no-repeat;
+  display: flex;
+  width: 170px;
+  height: 56px;
 }

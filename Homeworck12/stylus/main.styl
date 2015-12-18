@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300,700,900");
 
 @require reset
-@require default-classes
 @require header
 @require mixins
 @require variables
+@require default-classes
 
 .welcome
   background url("../img/background.jpg")
@@ -62,3 +62,130 @@
       width 19px
       margin auto
       display block
+
+.about-me-content
+  padding 5% 0 9% 0
+  p
+    padding 5% 0 0 0
+
+.expert-in
+  background #f1f8ff
+  .container
+    padding 7% 0
+
+.expert-list
+  margin 5% 0 0 0
+  li
+    padding 4% 0
+    margin 0 1%
+    flex-basis 31%
+    justify-content center
+  span
+    width 40%
+    margin 0 0 17% 0
+    border-radius 50%
+    border 1px solid #b7c0c9
+  h3
+    margin 0 0 7% 0
+    color main
+    font-size 24px
+    font-weight 700
+    text-transform uppercase
+
+  .mobile-app:before,
+  .web-design:before,
+  .web-dev:before,
+  .product-design:before,
+  .ux-ui:before,
+  .ux-ui:before,
+  .animations:before
+    content " "
+    display flex
+
+  .mobile-app:before
+    background url("../img/mobile-apps.svg") no-repeat
+    width 45px
+    height 66px
+    margin 25% auto
+  .web-design:before
+    background url("../img/web-design.svg") no-repeat
+    width 72px
+    height 58px
+    margin 28% auto
+  .web-dev:before
+    background url("../img/web-dev.svg") no-repeat
+    width 58px
+    height 66px
+    margin 25% auto
+  .product-design:before
+    background url("../img/product-design.svg") no-repeat
+    width 71px
+    height 67px
+    margin 25% auto
+  .ux-ui:before
+    background url("../img/ux-ui.svg") no-repeat
+    width 63px
+    height 63px
+    margin 26% auto
+  .ux-ui:before
+    background url("../img/ux-ui.svg") no-repeat
+    width 63px
+    height 63px
+    margin 25% auto
+  .animations:before
+    background url("../img/animations.svg") no-repeat
+    width 78px
+    height 65px
+    margin 26% auto
+
+.latest-works
+  text-align center
+  .container
+    padding 7% 0
+    .works-list
+      margin 9% 0 0 0
+      li
+        padding 1% 10px
+    .thumbnail
+      background #f4f4f4
+      border 1px solid #f4f4f4
+      border-radius(10px)
+      height 20em
+      overflow hidden
+      img
+        padding 40px 0 0 0
+
+.clients
+  background #f1f8ff
+  .container
+    padding 6% 0
+  .clients-list
+    align-items center
+    margin 6% 0 0 0
+  .microsoft:before
+    content " "
+    background url("../img/microsoft.svg") no-repeat
+    display flex
+    width 192px
+    height 41px
+  .samsung:before
+    content " "
+    background url("../img/samsung.svg") no-repeat
+    display flex
+    width 185px
+    height 28px
+  .ibm:before
+    content " "
+    background url("../img/ibm_logo.svg") no-repeat
+    display flex
+    width 140px
+    height 52px
+  .google:before
+    content " "
+    background url("../img/google.svg") no-repeat
+    display flex
+    width 170px
+    height 56px
+
+
+
