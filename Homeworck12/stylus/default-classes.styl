@@ -10,8 +10,15 @@
   border-radius 34px
   font-size 16px
   font-weight 700
+  text-transform uppercase
+  transition(all 0.3s ease-in-out)
+  @media (max-width 320px)
+    font-size 12px
+    padding 15px 50px
+  &:hover
+    transform(scale(1.1))
+    padding 15px 50px
 
 .section-title
   color main
-  font-size 50px
   font-weight 300
