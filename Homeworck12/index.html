@@ -10,6 +10,22 @@
     <link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
+    <header class="header navbar-fixed-top" id="header">
+        <nav class="container" id="button">
+            <div class="row reverse nav">
+                <div class="nav-btn">
+                    <a href="#" class="button"><span class="glyphicon gamburger"></span></a>
+                    <ul class="row end-xs menu-list">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about me</a></li>
+                        <li><a href="#">latest works</a></li>
+                        <li><a href="#">clients</a></li>
+                        <li><a href="#">hire</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <section class="welcome">
         <div class="container">
             <div class="row center-xs">
@@ -134,7 +150,17 @@
             </div>
         </div>
     </footer>
+    <div class="cookies" id="myShowBlock">
+        <div class="container">
+            <div class="cookies-content row center-xs">
+                <p>This site uses cookies, so that my service can work better. </p>
+                <button type="button" class="btn white-btn" id="clickme" onclick="showFun()">Accept</button>
+            </div>
+        </div>
+    </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
