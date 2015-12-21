@@ -335,6 +335,11 @@ h3 {
   align-items: center;
   margin: 6% 0 0 0;
 }
+@media (max-width: 1024px) {
+  .clients .clients-list {
+    margin: 0 10%;
+  }
+}
 @media (max-width: 320px) {
   .clients .clients-list {
     flex-direction: column;
@@ -346,7 +351,11 @@ h3 {
   display: flex;
   width: 192px;
   height: 41px;
-  align-items: center;
+}
+@media (max-width: 1024px) {
+  .clients .microsoft:before {
+    margin: 10px auto;
+  }
 }
 .clients .samsung:before {
   content: " ";
@@ -355,6 +364,11 @@ h3 {
   width: 185px;
   height: 28px;
 }
+@media (max-width: 1024px) {
+  .clients .samsung:before {
+    margin: 10px auto;
+  }
+}
 .clients .ibm:before {
   content: " ";
   background: url("../img/ibm_logo.svg") no-repeat;
@@ -362,12 +376,22 @@ h3 {
   width: 140px;
   height: 52px;
 }
+@media (max-width: 1024px) {
+  .clients .ibm:before {
+    margin: 10px auto;
+  }
+}
 .clients .google:before {
   content: " ";
   background: url("../img/google.svg") no-repeat;
   display: flex;
   width: 170px;
   height: 56px;
+}
+@media (max-width: 1024px) {
+  .clients .google:before {
+    margin: 10px auto;
+  }
 }
 .footer {
   background: url("../img/background.jpg");
